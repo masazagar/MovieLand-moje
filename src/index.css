@@ -69,6 +69,22 @@ button {
   width: 300px;
 }
 
+@media (max-width:300px) {
+  .container {
+    width: 200px;
+  }
+  .img-poster {
+    width: 200px !important;
+  }
+
+  .movie-year {
+    top: -400px;
+  }
+  li {
+    height: 300px;
+  }
+}
+
 .container:hover {
   transform: scale(1.1);
   transition: 0.3s;
@@ -78,3 +94,4 @@ button {
   width: 300px;
  
 }
+
